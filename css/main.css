@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+body {
+	font-family: 'Oxygen', Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222;
+}
+
+h1, h2, h3, h4,
+h5, h6 {
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/main1.jpg) no-repeat center top / cover;
+}
+
+.container {
+	width: 970px;	
+	margin: 0 auto;
+}
+
+.logo {
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+	margin-top: 30px;
+	float: left;
+}
+
+.logo {
+	text-decoration: none;
+	color: #fff;
+	font-size: 33px;
+}
+
+nav {
+	float: right;
+	margin-top: 40px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 15px;
+}
+
+.menu a {
+	color: #969697;
+	text-decoration: none;
+	font-size: 16.5px;
+	transition: 0.3s all;
+}
+
+.menu a:hover {
+	color: #fff;
+	transition: 0.3s all;
+}
+
+.titles_first {
+	font-size: 18.5px;
+	letter-spacing: 0.65em;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 200px;
+	padding-bottom: 15px;
+}
+
+.titles p {
+	color: #fff;
+	letter-spacing: 0.3em;
+	font-size: 17px;
+	text-align: center;
+	padding-bottom: 375px;
+}
+
+h1 {
+	font-size: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+	padding-bottom: 10px;
+}
+
+.title h2 {
+	text-align: center;
+	font-size: 55px;
+	color: #FF8A83;
+	padding-top: 50px;
+}
+
+.title p {
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 17px;
+	line-height: 1.9em;
+}
+
+.title p.data1 {
+	font-weight: bold;
+	margin-bottom: 100px;
+	padding-top: 15px;
+}
+
+.getmarry {
+	margin-top: 50px;
+}
+
+.marry_item img {
+	width: 310px;
+	border-radius: 50%;
+}
+
+.marry_item {
+	width: 485px;
+	float: left;
+	text-align: center;
+}
+
+.marry_item h3 {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #FF8A83; 
+}
+
+.marry_item p {
+	color: #FF8A83;
+	font-size: 14px;
+	line-height: 1.55em;
+	letter-spacing: 0.4em;
+	padding-bottom: 50px;
+}
+
+.marry_item:last-child {
+	float: right;
+}
+
+.marry_item:nth-child(1) {
+	float: left;
+}
+
+
+.wedday {
+	background: url('../img/main22.jpg') no-repeat center top / cover;
+	padding-bottom: 340px;
+	padding-top: 50px;
+}
+
+.title_time h3 {
+	font-size: 55px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+	padding-bottom: 15px;
+	padding-top: 230px;
+}
+
+.title_time p {
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 23px;
+	line-height: 1.9em;
+	font-weight: bold;
+}
+
+.time_item {
+	width: 235px;
+	float: left;
+	text-align: center;
+}
+
+.time_item h3 {
+	font-size: 60px;
+	margin-bottom: 10px; 
+	color: #fff;
+}
+
+.time_item p {
+	color: #333;
+	font-size: 13px;
+	line-height: 1.55em;
+	letter-spacing: 0.6em;
+	color: #fff;
+}
+
+.time_item:last-child {
+	float: right;
+}
+
+.time_item:nth-child(2) {
+	margin-left: 25px;
+}
+
+
+.title_person {
+
+}
+
+.title_person h3 {
+	text-align: center;
+	font-size: 55px;
+	color: #FF8A83;
+	padding-top: 50px;
+}
+
+.title_person p {
+	color: #8F8F8F;
+	font-size: 17px;
+	text-align: center;
+	padding-bottom: 65px;
+}
+
+.person_item {
+	border: 5px solid #fff;
+	padding: 5px;
+	transition: 0.5s all;
+}
+
+.person_item:hover {
+	transform: scale(1.05);
+	transition: 0.5s all;
+}
+
+.person_item_gr {
+	background: #F4F3E2;
+}
+
+.person_item_pi {
+	background: #FEF6F8;
+}
+
+.person_item {
+	width: 485px;
+	float: left;
+	text-align: center;	
+}
+
+.person_item img {
+	width: 260px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+}
+
+.person_item h3 {
+	font-size: 30px;
+    margin-bottom: 10px;
+    color: #FF8A83;
+}
+
+.person_item p {
+	color: #8F8F8F;
+	font-size: 16.8px;
+	text-align: center;
+	padding-bottom: 55px;
+	padding-top: 5px;
+	line-height: 1.75em;
+}
+
+
+.sweet {
+	background: url('../img/main3.jpg') no-repeat center top / cover;
+	padding-bottom: 450px;
+}
+
+.title_sweet h3 {
+	text-align: center;
+	font-size: 55px;
+	color: #fff;
+	padding-top: 175px;
+	padding-bottom: 15px;
+}
+
+.sweet_item p {
+	color: #8F8F8F;
+	font-size: 17.5px;
+	text-align: center;
+	padding-bottom: 65px;
+}
+
+.sweet_item {
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.sweet_item {
+	width: 300px;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.autgor {
+	margin-top: -60px;
+	float: left;
+	padding-left: 15px;
+}
+
+p.autgor {
+	color: #3a383a;
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+	font-size: 23px;
+}
+
+
+
+.groomsmen {
+
+}
+
+.title_groo h3,
+.title_brides h3 {
+	text-align: center;
+    font-size: 65px;
+    color: #FF8A83;
+    padding-top: 50px;
+}
+
+.title_brides h3 {
+	padding-bottom: 50px;
+}
+
+.title_groo p {
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+	color: #8F8F8F;
+	font-size: 19.5px;
+	text-align: center;
+	padding-bottom: 75px;
+	padding-top: 15px;
+	line-height: 1.75em;
+}
+
+.groo_item img,
+.brides_item img {
+	width: 230px;
+	border-radius: 50%; 
+}
+
+.groo_item,
+.brides_item {
+	width: 240px;
+	float: left;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.groo_item h4,
+.brides_item h4 {
+	font-size: 21px;
+}
+
+
+.ceremony {
+
+}
+
+.title_cerem p {
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+	color: #8F8F8F;
+	font-size: 19.5px;
+	text-align: center;
+	padding-bottom: 75px;
+	padding-top: 15px;
+	line-height: 1.75em;
+}
+
+.photo_item img {
+	width: 455px;
+	height: 400px;
+}
+
+.photo_item {
+	width: 480px;
+	float: left;
+	text-align: center;
+}
+
+.title_cerem h3{
+	text-align: center;
+    font-size: 65px;
+    color: #FF8A83;
+    padding-top: 50px;
+}
+
+.table_item,
+.table_item2 {
+	width: 480px;
+	float: left;
+	text-align: center;
+	padding-bottom: 100px;
+	border: 10px solid #fff;
+	padding: 10px;
+}
+.table_item{
+	background: #F4F3E2;
+}
+.table_item2 {
+	background: #D1C4E9;
+}
+
+.table_item h4,
+.table_item2 h4 {
+	color: #FF847C;
+	text-align: center;
+	font-size: 27px;
+}
+
+.table_item p,
+.table_item2 p {
+	color: #797871;
+	font-size: 16.5px;
+	line-height: 1.7em;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.left_it p,
+.right_it p{
+	text-align: center;
+	font-size: 13.5px;
+	letter-spacing: 0.2em;
+}
+
+.left_it {
+	float: left;
+	padding-left: 50px;
+	padding-right: 15px;
+}
+.right_it {
+	float: right;
+	padding-right: 50px;
+	padding-left: 15px;
+}
+
+.ceremony .button {
+	float: left;
+	border: 1px solid #FF847C;
+	border-radius: 5px;
+	background: #FF847C;
+	color: #fff;
+	padding: 3px;
+	font-size: 13px;
+	text-decoration: none;
+	transition: 0.5s all;
+}
+
+.button:hover {
+	background: #3A3F47;
+	transition: 0.5s all;
+}
+
+.hearth {
+	color: #FF847C;
+	padding-top: 23px;
+	padding-right: 15px;
+}
+
+.ceremony {
+	padding-bottom: 80px;
+}
+
+
+.invited {
+	background: url(../img/main22.jpg) no-repeat center top / cover;
+}
+
+.title_invite h3 {
+	text-align: center;
+    font-size: 65px;
+    color: #fff;
+    padding-top: 150px;
+}
+
+.title_invite p {
+	font-family: 'Dancing Script', cursive, Arial, sans-serif;
+	color: #fff;
+	font-size: 20.5px;
+	text-align: center;
+	padding-bottom: 75px;
+	line-height: 1.75em;
+}
+
+form {
+	text-align: center;
+	color: #fff;
+	padding-bottom: 75px;
+}
+
+form input {
+	margin-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	width: 270px;
+	padding-left: 15px;
+	background: rgba(255, 255, 255, 0.2);
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.attend {
+	color: #fff;
+	background: #FF847C;
+	transition: 0.5s all;
+}
+
+.attend:hover {
+	background: #3A3F47;
+	transition: 0.5s all;
+}
+
+
+footer {
+
+}
+
+footer p {
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 17px;
+	line-height: 1.9em;
+	font-weight: 700;
+	padding-top: 15px;
+}
